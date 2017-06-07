@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding: 0;  
+    background: url(../img/zig%20zag%20wool.png);
+    font-family: PT Sans;
+}
+h1{
+    color:aquamarine;
+    margin-top: 5px;
+}
+#gallery{
+    width:700px;
+    margin:10px auto;
+    text-align: center;
+}
+#gallery .photos{
+    position:relative;
+    margin-bottom: 20px;
+    height:450px; 
+}
+#gallery .photos img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+#gallery .photos img.showed{
+    opacity:1;
+}
+
+.buttons button{
+    display: inline;
+    font-size:18px;
+    color:aqua;
+    padding: 10px 12px;
+    background: black;
+    border-radius:10px;
+    box-shadow:0 2px 3px rgba(0,0,0,.4); 
+    margin-left: 10px;    
+}
